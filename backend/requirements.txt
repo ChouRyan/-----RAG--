@@ -1,0 +1,26 @@
+# ===== 核心框架 =====
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic-settings==2.7.1
+
+# ===== LangChain 生态 =====
+langchain==0.3.14
+langchain-anthropic==0.3.4
+langchain-community==0.3.14
+langchain-chroma==0.2.2
+langchain-huggingface==0.1.2
+
+# ===== 向量数据库 =====
+chromadb==0.5.23
+
+# ===== 文档解析 =====
+pypdf
+docx2txt
+python-multipart
+
+# ===== 重排序 =====
+sentence-transformers==3.3.1
+
+# ===== 工具库 =====
+python-dotenv==1.0.1
+httpx==0.28.1
